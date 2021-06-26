@@ -207,3 +207,60 @@
   text-decoration: none;
   color: #000;
 }
+
+@media (max-width: 767px) {
+  .page__wrapper{
+    padding: 30px 20px;
+  }
+  .page__title{
+    margin: 0 0 30px;
+    color: #FAFAFA;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    height: 56px;
+  }
+  .page__form{
+    margin: 0 0 50px 0;
+  }
+  .page__form-label{
+    margin: 0;
+    padding: 0 0 0 0;
+    color: #FAFAFA;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    height: 56px;
+  }
+
+  .page__form-input{
+    outline: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    width: 40px;
+    padding: 0 5px 0;
+  }
+  .page__form-error{
+    height: 14px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .page__btn{
+    margin: 0 0 30px 0;
+  }
+  .page__subtitle{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+  .page__description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
